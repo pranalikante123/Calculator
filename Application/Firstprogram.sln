@@ -1,24 +1,22 @@
-/*Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32414.318
-MinimumVisualStudioVersion = 10.0.40219.1*/
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firstprogram" "Firstprogram.csproj" "{EAE8491E-EE89-407B-B9B9-202C610D0ED1}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug_Any CPU = Debug_Any CPU
-		Release_Any CPU = Release_Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EAE8491E-EE89-407B-B9B9-202C610D0ED1}.Debug_Any CPU.ActiveCfg = Debug_Any CPU
-		{EAE8491E-EE89-407B-B9B9-202C610D0ED1}.Debug_Any CPU.Build.0 = Debug_Any CPU
-		{EAE8491E-EE89-407B-B9B9-202C610D0ED1}.Release_Any CPU.ActiveCfg = Release_Any CPU
-		{EAE8491E-EE89-407B-B9B9-202C610D0ED1}.Release_Any CPU.Build.0 = Release_Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1D2DA569-E4BC-4E48-8C54-8025B9A35D1E}
-	EndGlobalSection
-EndGlobal
+using System;
+namespace Operation{
+    class Program{
+        static void Main(string[] args){
+            double a, b, w, x, y, z;
+            Console.WriteLine("*****Arithmatic Program*****");
+            Console.Write("enter the 1st number:");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("enter the 2nd number:");
+            b = Convert.ToDouble(Console.ReadLine());
+            w = a + b;
+            x = a - b;
+            y = a * b;
+            z = a / b;
+            Console.WriteLine("addition: " + w);
+            Console.WriteLine("subtraction: " + x);
+            Console.WriteLine("Multiplication: " + y);
+            Console.WriteLine("Divison: " + z);
+            Console.ReadLine();
+        }
+    }
+}
