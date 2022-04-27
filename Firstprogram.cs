@@ -1,10 +1,7 @@
 using System;
-namespace Operation
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace Operation{
+    class Program{
+        static void Main(string[] args){
             double a, b, w, x, y, z;
             Console.WriteLine("*****Arithmatic Program*****");
             Console.Write("enter the 1st number:");
@@ -15,14 +12,11 @@ namespace Operation
             x = a - b;
             y = a * b;
             z = a / b;
-
             Console.WriteLine("addition: " + w);
             Console.WriteLine("subtraction: " + x);
             Console.WriteLine("Multiplication: " + y);
             Console.WriteLine("Divison: " + z);
-
             Console.ReadLine();
-
         }
     }
 }
